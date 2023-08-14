@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.weather-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.weather-icon img {
+    width: 100px;
+    height: auto;
+}
+
+.forecast-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.forecast-card {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.forecast-card p {
+    margin: 5px;
+}
