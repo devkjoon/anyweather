@@ -21,5 +21,34 @@ function load() {
 function loadURL() {
     let cityName = JSON.parse(localStorage.getItem("response"));
 
-    let 
+    let requestURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=76d52450ab94e81993d2613d091c301e&units=imperial`
 }
+''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let displayWeather = function(weatherData)
